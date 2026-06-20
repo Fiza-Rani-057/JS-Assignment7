@@ -1,51 +1,51 @@
 // //  Question 1
 
-// document.write( "<h1>" + "Question 1" + "<br>" + "<br>" + "</h1>");
-// var city = "Karachi";
-// var userInput = prompt("Enter your city");
+document.write( "<h1>" + "Question 1" + "<br>" + "<br>" + "</h1>");
+var city = "Karachi";
+var userInput = prompt("Enter your city");
 
-//  if(city === "Karachi"){
-//     document.write("Welcome to city of lights"+ "<br>" + "<br>" );
-//  }
+ if(city === "Karachi"){
+    document.write("Welcome to city of lights"+ "<br>" + "<br>" );
+ }
 
 // //   Question 2
 
-//  document.write( "<h1>" + "Question 2" + "<br>" + "<br>" + "</h1>");
+ document.write( "<h1>" + "Question 2" + "<br>" + "<br>" + "</h1>");
  
-//  var gender = prompt("What is your gender?");
+ var gender = prompt("What is your gender?");
 
-//  if(gender === "male"){
-//     document.write("Good Morning Sir");
-//  }
-//  if(gender === "female"){
-//     document.write("Good morning Ma'am");
-//  }
+ if(gender === "male"){
+    document.write("Good Morning Sir");
+ }
+ if(gender === "female"){
+    document.write("Good morning Ma'am");
+ }
 
 // //  Question 3
 
-//  document.write( "<h1>" + "Question 3" + "<br>" + "<br>" + "</h1>");
+ document.write( "<h1>" + "Question 3" + "<br>" + "<br>" + "</h1>");
 
-//   var trafficLight = prompt("Enter traffic signal color");
+  var trafficLight = prompt("Enter traffic signal color");
 
-//   if(trafficLight === "Red"){
-//     document.write("Must Stop");
-//   }
-//  if(trafficLight === "Yellow"){
-//     document.write("Ready to move");
-//  }
-//  if(trafficLight === "Green"){
-//     document.write("Move now");
-//  }
+  if(trafficLight === "Red"){
+    document.write("Must Stop");
+  }
+ if(trafficLight === "Yellow"){
+    document.write("Ready to move");
+ }
+ if(trafficLight === "Green"){
+    document.write("Move now");
+ }
  
 // //  Question 4 
 
-//  document.write( "<h1>" + "Question 4" + "<br>" + "<br>" + "</h1>");
+ document.write( "<h1>" + "Question 4" + "<br>" + "<br>" + "</h1>");
 
-//  var reaminingFuel = prompt("Enter remaining fuel in liters");
+ var reaminingFuel = prompt("Enter remaining fuel in liters");
 
-//  if(reaminingFuel < 0.25){
-//     document.write("Please refill  the fuel your car");
-//  }
+ if(reaminingFuel < 0.25){
+    document.write("Please refill  the fuel your car");
+ }
 
 //  Question 5
 
