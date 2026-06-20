@@ -187,3 +187,16 @@ var userInput = prompt("Enter your city");
   else{
     document.write("number is not divisible by 3");
   }
+
+//    Question 9
+
+ document.write( "<h1>" + "Question 9" + "<br>" + "<br>" + "</h1>");
+
+ var inputNumber = prompt("Enter any number");
+
+ if(inputNumber % 2 === 0){
+    document.write("Given number is an odd number");
+ }
+ if(inputNumber % 2  !== 0){
+    document.write("Given number is an even number");
+ }
