@@ -210,13 +210,13 @@ var userInput = prompt("Enter your city");
   if(temperature > 40){
     document.write("It's too hot outside");
   }
-  if(temperature > 30){
+  else if(temperature > 30){
     document.write("The Weather today is Normal");
   }
-  if(temperature > 20){
+  else if(temperature > 20){
     document.write("Today's weather is cool");
   }
-  if(temperature > 10){
+   else if(temperature > 10){
     document.write("OMG! Today's weather is cool");
   }
 
