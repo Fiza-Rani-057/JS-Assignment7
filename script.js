@@ -224,4 +224,9 @@ var userInput = prompt("Enter your city");
 
  document.write( "<h1>" + "Question 10" + "<br>" + "<br>" + "</h1>");
 
- 
+  var num1 = prompt("Enter first number");
+  var num2 = prompt("Enter second number");
+
+  if( ){
+
+  }
