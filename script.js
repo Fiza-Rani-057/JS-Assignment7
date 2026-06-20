@@ -169,8 +169,21 @@ var userInput = prompt("Enter your city");
   var guessNumber = +prompt("Guess the secret number (1-10)");
   
   if(secretNumber === guessNumber){
-    document.write("Bingo!orrect Answer");
+    document.write("Bingo!Correct Answer");
   }
   if(guessNumber + 1 === secretNumber){
     document.write("Close Enough to the correct Answer");
+  }
+
+ //   Question 8
+
+  document.write( "<h1>" + "Question 8" + "<br>" + "<br>" + "</h1>");
+ 
+  var num = prompt("Enter a number");
+
+  if(num % 3 === 0){
+    document.write("Number is divisible by 3");
+  }
+  else{
+    document.write("number is not divisible by 3");
   }
