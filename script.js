@@ -164,3 +164,13 @@ var userInput = prompt("Enter your city");
 //   Question 7
 
   document.write( "<h1>" + "Question 7" + "<br>" + "<br>" + "</h1>");
+
+  var secretNumber = 4;
+  var guessNumber = +prompt("Guess the secret number (1-10)");
+  
+  if(secretNumber === guessNumber){
+    document.write("Bingo!orrect Answer");
+  }
+  if(guessNumber + 1 === secretNumber){
+    document.write("Close Enough to the correct Answer");
+  }
