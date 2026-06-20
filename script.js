@@ -219,3 +219,9 @@ var userInput = prompt("Enter your city");
   if(temperature > 10){
     document.write("OMG! Today's weather is cool");
   }
+
+//   Question 11
+
+ document.write( "<h1>" + "Question 10" + "<br>" + "<br>" + "</h1>");
+
+ 
