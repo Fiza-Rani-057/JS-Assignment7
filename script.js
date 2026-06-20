@@ -231,19 +231,15 @@ var operation = prompt("Enter operation (+, -, *, /, %)");
 if (operation === "+") {
     document.write("Result: " + (num1 + num2));
 }
-
 if (operation === "-") {
     document.write("Result: " + (num1 - num2));
 }
-
 if (operation === "*") {
     document.write("Result: " + (num1 * num2));
 }
-
 if (operation === "/") {
     document.write("Result: " + (num1 / num2));
 }
-
 if (operation === "%") {
     document.write("Result: " + (num1 % num2));
 }
