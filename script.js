@@ -226,7 +226,22 @@ var userInput = prompt("Enter your city");
 
   var num1 = prompt("Enter first number");
   var num2 = prompt("Enter second number");
+  var operation = prompt(" Enter operations (+,-, *,/,%)");
 
-  if( ){
+  if( operation = "+" ){
+   document.write ("Result: " + (num1 + num2));
 
   }
+  if(operation = "-"){
+     document.write( "Result:"( num1 - num2));
+  }
+  if(operation = "*"){
+     document.write( "Result:"( num1 * num2));
+  }
+  if(operation = "/"){
+   document.write("Result:"( num1 / num2));
+  }
+  if(operation = "%"){
+    document.write("Result:"( num1 % num2));
+  }
+ 
