@@ -49,7 +49,8 @@ var userInput = prompt("Enter your city");
 
 //  Question 5
 
-document.write( "<h1>" + "Question 5" + "<br>" + "<br>" + "</h1>");
+ document.write( "<h1>" + "Question 5" + "<br>" + "<br>" + "</h1>");
+  document.write("Alert messages");
 
 //  Q5 (a)
 
@@ -129,3 +130,37 @@ document.write( "<h1>" + "Question 5" + "<br>" + "<br>" + "</h1>");
     //  Output 
     // Message displayed
  
+
+//   Question 6 
+
+ document.write( "<h1>" + "Question 6" + "<br>" + "<br>" + "</h1>");
+
+  var totalMarks = +prompt("Enter total marks");
+  var obtainedMarks = +prompt("Enter Obtained marks");
+
+  var percentage = (obtainedMarks / totalMarks) *100;
+
+  document.write("Total Marks: " + totalMarks + "<br>");
+  document.write("Obtained Marks: " + obtainedMarks + "<br>");
+  document.write("Percentage: " + percentage  + "%" + "<br>");
+
+  if(percentage >= 80){
+    document.write("Grade: A-One" + "<br>");
+    document.write("Remarks: Excellent");
+  }
+  else if (percentage >= 70){
+    document.write("Grade: A" + "<br>");
+    document.write("Remarks: Good");
+  }
+  else if (percentage >= 60){
+    document.write("Grade: B" + "<br>");
+    document.write("Remarks: You need to improve");
+  }
+  else{
+    document.write("Grade : Fail" + "<br>");
+    document.write("Remarks: Sorry");
+  }
+
+//   Question 7
+
+  document.write( "<h1>" + "Question 7" + "<br>" + "<br>" + "</h1>");
