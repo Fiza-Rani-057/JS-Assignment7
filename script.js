@@ -314,3 +314,21 @@ var inputNumber = prompt("Enter a character");
  else{
   document.write(false);
  }
+
+  // Question 16 
+
+  document.write( "<h1>" + "Question 16" + "<br>" + "<br>" + "</h1>");
+
+  var password = "Fiza$123";
+  var userPassword =prompt("Please enter your password");
+
+  if(userPassword === password){
+    document.write("Correct! The password you entered matches the original password.");
+  }
+  else{
+    document.write("Incorrect Password");
+  }
+
+  // Question 17 
+ 
+  document.write( "<h1>" + "Question 17" + "<br>" + "<br>" + "</h1>");
