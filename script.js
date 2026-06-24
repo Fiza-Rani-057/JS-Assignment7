@@ -301,3 +301,16 @@ var inputNumber = prompt("Enter a character");
 
 
 //  Question 15 
+
+ document.write( "<h1>" + "Question 15" + "<br>" + "<br>" + "</h1>");
+
+  var vowel = prompt("Enter one character");
+
+  if(vowel === "a" || "e" || "i" || "o" || "u" || 
+    "A" || "E" || "I" || "O" || "U"
+  ){
+    document.write(true);
+  }
+ else{
+  document.write(false);
+ }
