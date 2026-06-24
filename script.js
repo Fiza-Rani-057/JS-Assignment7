@@ -222,7 +222,7 @@ var userInput = prompt("Enter your city");
 
 //   Question 11
 
- document.write( "<h1>" + "Question 10" + "<br>" + "<br>" + "</h1>");
+ document.write( "<h1>" + "Question 11" + "<br>" + "<br>" + "</h1>");
 
  var num1 = +prompt("Enter first number");
 var num2 = +prompt("Enter second number");
@@ -243,3 +243,10 @@ if (operation === "/") {
 if (operation === "%") {
     document.write("Result: " + (num1 % num2));
 }
+
+//  if else and nested if statement 
+
+//  Question 12 
+
+  document.write( "<h1>" + "Question 12" + "<br>" + "<br>" + "</h1>");
+  
