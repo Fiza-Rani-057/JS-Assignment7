@@ -332,3 +332,34 @@ var inputNumber = prompt("Enter a character");
   // Question 17 
  
   document.write( "<h1>" + "Question 17" + "<br>" + "<br>" + "</h1>");
+
+  var greeting; 
+  var hour = 13;
+   if (hour < 18) { 
+     document.write(greeting = "Good day");
+    }
+   else { 
+     document.write(greeting = "Good evening");
+     } 
+ 
+  // Question 18 
+
+    document.write( "<h1>" + "Question 18" + "<br>" + "<br>" + "</h1>");
+
+  var time = parseInt(prompt("Enter time in 24 hours format"));
+
+  if(time >= 0 && time < 1200){
+     document.write("Good Morning");
+  }
+else if(time >= 1200 && time < 1700){
+  document.write("Good afternoon")
+}
+else if(time >= 1700 && time < 2100){
+  document.write("Good Evening");
+}
+ else if(time >= 2100 && time < 2359){
+  document.write("Good Night");
+ }
+ else {
+  document.write("Invalid Time");
+ }
