@@ -344,7 +344,7 @@ var inputNumber = prompt("Enter a character");
  
   // Question 18 
 
-    document.write( "<h1>" + "Question 18" + "<br>" + "<br>" + "</h1>");
+  document.write( "<h1>" + "Question 18" + "<br>" + "<br>" + "</h1>");
 
   var time = parseInt(prompt("Enter time in 24 hours format"));
 
